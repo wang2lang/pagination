@@ -1,4 +1,4 @@
-# Pagination
+# js-pagination
 pagination implemented in pure JavaScript
 
 ## Install
@@ -19,7 +19,7 @@ var Pagination = require('js-pagination')
 
 // config
 Pagination.config({
-  ulClass: 'urClassName',
+  ulClass: 'pagination',
   activeClass: 'active',
   ...
 })

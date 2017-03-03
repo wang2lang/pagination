@@ -1,11 +1,18 @@
 {
   "name": "js-pagination",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "pagination implemented in pure JavaScript",
   "main": "dist/index.js",
   "scripts": {
     "dev": "rollup --watch --config rollup.dev.config.js & node example/server",
     "build": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rainjay/pagination.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rainjay/pagination/issues"
   },
   "devDependencies": {
     "connect-history-api-fallback": "^1.3.0",
