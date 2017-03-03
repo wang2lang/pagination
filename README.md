@@ -1,16 +1,20 @@
 # js-pagination
 pagination implemented in pure JavaScript
 
-## Install
+## Install & run example
 ```
+// install
 npm i -S 'js-pagination'
-```
 
-## Example
-```
+// run example
+git clone https://github.com/rainjay/pagination.git
+cd pagination
 npm install
 npm run dev
 ```
+
+## Example demo
+<a href="https://jsfiddle.net/rainjay/ktyptn74/" target="_blank">DEMO</a>
 
 ## Usage
 ```
@@ -36,14 +40,14 @@ myPager.goToPage(num)
 
 ## API
 
-###  config attributes
+###  config attributes (optional)
 | key | Type | Details                                                    |
 | :----- | :----: | :-------:                                             |
-| ulClass | String | class name for page lists                            |
-| activeClass | String | class name for active page item                  |
-| disableClass | String | disable class name for disabled item            |
+| ulClass | String | class name for page lists, default 'pagination'      |
+| activeClass | String | class name for active page item, default 'active'|
+| disableClass | String | disable class name for disabled item, default 'disabled'|
 | dots | String | default '...'                                           |
-| hideIfEmpty | Boolean | whether to hide paging if only have one page, default true                                    |
+| hideIfEmpty | Boolean | whether to hide paging if only have one page, default true|
 |showPreNext| Bollean|whether show pre and next button, default true      |
 | scrollTop   | Bollean | whether scroll to top after you select one page, default false            |
 | scrollContainer| String | which container to scroll                     |
@@ -55,8 +59,8 @@ myPager.goToPage(num)
 | key | Type | Details                                                    |
 | :----- | :----: | :-------:                                             |
 | total | Number | the total size of what you are displaying              |
-| size | Number | size of each page                                       |
-| size | Number | size of each page                                       |
+| size | Number | size of each page, default 1                            |
+| size | Number | size of each page, default 1                            |
 |callback| Function | call back for page select operation                 |
 |fieldSelector| String | the field u want to mount, exp: '.field'         |
 

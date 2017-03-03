@@ -1,6 +1,6 @@
 {
   "name": "js-pagination",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "pagination implemented in pure JavaScript",
   "main": "dist/index.js",
   "scripts": {
